@@ -10,3 +10,7 @@ __pycache__/
 
 # macOS system files
 .DS_Store
+
+# sqlite runtime
+*.sqlite-wal
+*.sqlite-shm
