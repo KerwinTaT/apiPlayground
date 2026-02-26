@@ -14,3 +14,13 @@ __pycache__/
 # sqlite runtime
 *.sqlite-wal
 *.sqlite-shm
+
+# large data outputs
+data/raw/*.sqlite
+data/processed/*.sqlite
+*.sqlite
+*.db
+
+# sqlite runtime files
+*.sqlite-wal
+*.sqlite-shm
