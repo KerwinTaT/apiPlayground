@@ -16,6 +16,7 @@ The goal is to identify structural patterns in restaurant ecosystems across diff
 Source table: `restaurants_enriched_zip`
 
 Filtered conditions:
+
 - rating IS NOT NULL
 - price_level IS NOT NULL
 - median_household_income > 0
@@ -23,7 +24,7 @@ Filtered conditions:
 
 Final dataset size:
 
-**20,271 restaurants**
+### 20,271 restaurants
 
 Clustering features:
 
@@ -41,7 +42,7 @@ Number of clusters: **k = 4**
 ## Cluster Distribution
 
 | Cluster | Count | Approx. Share |
-|----------|--------|---------------|
+| --------- | ------- | ------------- |
 | 0 | 4,628 | ~23% |
 | 1 | 8,872 | ~44% |
 | 2 | 776 | ~4% |

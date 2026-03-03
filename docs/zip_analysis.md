@@ -1,5 +1,6 @@
 # ZIP-Level Restaurant & Demographic Analysis  
-**Week 7 – Census Data Integration and Contextual Enrichment**
+
+## Week 7 – Census Data Integration and Contextual Enrichment
 
 ---
 
@@ -77,7 +78,7 @@ For each ZIP code, the following metrics were computed:
 Pearson correlation matrix:
 
 | Relationship | Correlation (r) |
-|--------------|----------------|
+| ------------ | --------------- |
 | Income ↔ Avg Price Level | 0.47 |
 | Income ↔ Avg Rating | 0.33 |
 | Income ↔ Restaurant Density | 0.11 |

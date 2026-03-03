@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-The objective of Week 9 was to build and evaluate a supervised machine learning model to predict whether a restaurant is considered “high-rated.” 
+The objective of Week 9 was to build and evaluate a supervised machine learning model to predict whether a restaurant is considered “high-rated.”
 
 A binary classification task was defined:
 
@@ -44,7 +44,7 @@ Missing values were handled using median imputation for numeric features and mos
 
 To address class imbalance, `class_weight="balanced"` was applied.
 
-### Performance:
+### Performance
 
 - Accuracy: **0.61**
 - Precision (high-rated): **0.39**
@@ -59,7 +59,7 @@ The baseline model demonstrated moderate ability to detect high-rated restaurant
 
 A Random Forest classifier (300 trees, balanced class weights) was trained to capture potential nonlinear relationships.
 
-### Default Threshold (0.50):
+### Default Threshold (0.50)
 
 - Accuracy: **0.67**
 - Precision: **0.43**
@@ -89,7 +89,7 @@ This configuration achieved the highest F1-score among tested models and signifi
 
 ### Key Insight
 
-Adjusting the decision threshold proved more effective than changing model architecture. 
+Adjusting the decision threshold proved more effective than changing model architecture.
 
 This demonstrates that probability calibration is critical in imbalanced classification problems.
 
@@ -99,7 +99,7 @@ This demonstrates that probability calibration is critical in imbalanced classif
 
 Feature importance was extracted from the Random Forest model.
 
-### Top Contributors:
+### Top Contributors
 
 1. `log_reviews` (~53%)
 2. `median_household_income` (~16%)
@@ -122,7 +122,7 @@ This confirms that demographic enrichment meaningfully improves predictive model
 ## 7. Model Comparison Summary
 
 | Model | Accuracy | Precision | Recall | F1 |
-|--------|----------|-----------|--------|----|
+| --------- | ---------- | ----------- | --------- | ---- |
 | Logistic (balanced) | 0.61 | 0.39 | 0.58 | 0.46 |
 | Random Forest (0.50 threshold) | 0.67 | 0.43 | 0.38 | 0.40 |
 | Random Forest (0.35 threshold) | 0.59 | 0.38 | 0.65 | **0.48** |
