@@ -17,6 +17,7 @@ This pipeline is designed to:
 - Export structured datasets for analytics and modeling
 
 The system prioritizes:
+
 - API efficiency
 - Data integrity
 - Reproducibility
@@ -27,6 +28,7 @@ The system prioritizes:
 ## 2. Architecture
 
 ### Data Flow
+
 Google Places API
 ↓
 Grid-based Query Engine
@@ -86,6 +88,7 @@ To avoid excessive API calls in low-density regions, the pipeline:
 PRAGMA journal_mode=WAL;
 PRAGMA synchronous=NORMAL;
 ```
+
 WAL mode enables:
 
 - Improved concurrent read/write performance
@@ -103,6 +106,7 @@ These are expected when WAL mode is enabled.
 ---
 
 ## 5. Repository Structure
+
 project-root/
 │
 ├── fetch_google_places_plateau.py     # Data ingestion pipeline
@@ -170,6 +174,7 @@ Exports structured data in CSV or JSON format for downstream analytics and model
 ---
 
 ## 8. Operational Constraints
+
 - Subject to Google Places API rate limits and quota restrictions
 - Dataset represents a time-specific snapshot
 - Geographic completeness depends on grid density configuration
@@ -178,7 +183,9 @@ Exports structured data in CSV or JSON format for downstream analytics and model
 ---
 
 ## 9. Potential Extensions
+
 Future enhancements may include:
+
 - Parallelized ingestion engine
 - Migration to PostgreSQL for large-scale persistence
 - Cloud deployment (GCP / AWS)
@@ -188,9 +195,10 @@ Future enhancements may include:
 ---
 
 ## 10. Intended Use
+
 This system was developed for:
+
 - Large-scale exploratory data analysis
 - Machine learning dataset preparation
 - Geographic pattern modeling
 - Internship-level data engineering applications
-
