@@ -63,13 +63,13 @@ The differences in category distribution likely reflect variations in urban dens
 
 These results suggest that restaurant market structure is not uniform across cities, and expansion strategies should consider local category demand.
 
-### Key implications:
+### Key implications
 
 - Cities with high counts in delivery and takeaway may be more suitable for fast-casual or delivery-focused businesses.
 - High bar and cafe counts indicate strong competition in social dining segments.
 - Lower counts in certain categories may indicate opportunities for new restaurants.
 
-### For example:
+### For example
 
 - New York may be highly competitive but offers strong demand.
 - San Francisco may offer smaller but more specialized markets.
@@ -113,7 +113,7 @@ These results show that economic wealth does not directly determine restaurant a
 
 For restaurant expansion planning, income level should not be used as the only indicator of market opportunity.
 
-### Key implications:
+### Key implications
 
 - High-income cities do not always have more restaurants per person.
 - Lower-income cities may still support a high number of restaurants.
@@ -164,7 +164,7 @@ However, the rating differences are relatively small, suggesting that lower-pric
 
 Price level alone does not determine success, but there is a positive relationship between price and average rating.
 
-### Key implications:
+### Key implications
 
 - Higher-priced restaurants tend to receive slightly better reviews.
 - Affordable restaurants can still compete if quality is high.
@@ -208,7 +208,7 @@ The slight downward trend suggests that highly reviewed restaurants may receive 
 
 The number of reviews should be considered together with rating when evaluating restaurant quality.
 
-### Key implications:
+### Key implications
 
 - High rating with few reviews may not be reliable.
 - Restaurants with many reviews provide more trustworthy ratings.
